@@ -45,7 +45,7 @@ PushNotification.prepare(message, badge, sound, payload);
 PushNotification.addTarget(DeviceType.IOS, iosToken);
 PushNotification.addTarget(DeviceType.ANDROID, androidToken);
 PushNotification.addTarget(DeviceType.ANDROID, anotherToken);
-PushNotification.push();
+PushNotification.push(callback);
 ```
 
 
