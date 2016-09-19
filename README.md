@@ -6,7 +6,7 @@
 ## Install
 
 ```sh
-$ npm install --save push-notification
+$ npm install --save https://github.com/FlyingDonkeyDev/push-notification.git
 ```
 
 
